@@ -1,0 +1,51 @@
+body {
+  background-image: url(/images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: oblique;
+  color: #212121;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 120px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: rgba(229, 56, 21, 0.665);
+  width: 75px;
+  height: 75px;
+  border: 2px transparent solid;
+  border-radius: 100%;
+}
+
+.field:not(:first-child) {
+  margin-left: 8px;
+}
+
+.value {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  color: #212121;
+}
+
+.label {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  color: #212121;
+}
