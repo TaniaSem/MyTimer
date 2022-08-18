@@ -3,6 +3,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(images/bg-img-2.jpg);
+  }
+}
 .text {
   text-align: center;
   margin-top: 50px;
