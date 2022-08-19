@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/bg-img-smart.jpg);
+  background-image: url(images/mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -15,21 +15,21 @@ body {
   font-size: 24px;
   font-weight: bold;
   font-style: oblique;
-  color: #212121;
+  color: transparent;
 }
 
 .timer {
   display: flex;
   justify-content: center;
 
-  margin-top: 120px;
+  margin-top: 230px;
 }
 
 .field {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background: rgba(229, 56, 21, 0.665);
+  background: rgba(86, 133, 21, 0.665);
   width: 75px;
   height: 75px;
   border: 2px transparent solid;
