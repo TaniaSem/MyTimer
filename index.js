@@ -10,6 +10,7 @@ let deltaTime;
 
 const intervalId = setInterval(() => {
   const startTime = 1665336000000;
+  // const moonLanding = new Date("October 09, 2022 20:20:00 GMT+03:00");
   deltaTime = startTime - Date.now();
   const timeComponents = convertMs(deltaTime);
   console.log(timeComponents);
