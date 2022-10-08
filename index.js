@@ -9,7 +9,7 @@ const refs = {
 let deltaTime;
 
 const intervalId = setInterval(() => {
-  const startTime = 1664985600000;
+  const startTime = 1665336000000;
   deltaTime = startTime - Date.now();
   const timeComponents = convertMs(deltaTime);
   console.log(timeComponents);
