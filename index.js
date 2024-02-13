@@ -9,11 +9,11 @@ const refs = {
 let deltaTime;
 
 const intervalId = setInterval(() => {
-  const startTime = 1665336000000;
+  const startTime = 1710212400417;
   // const moonLanding = new Date("October 09, 2022 20:20:00 GMT+03:00");
   deltaTime = startTime - Date.now();
   const timeComponents = convertMs(deltaTime);
-  console.log(timeComponents);
+  // console.log(timeComponents);
   updateTimerFace(timeComponents);
   onStopTimer();
 }, 1000);
@@ -24,7 +24,9 @@ function onStopTimer() {
   }
 }
 
-console.log(Date.now());
+// console.log(Date.now());
+// let ms = Date.parse('2024-03-11T20:00:00.417-07:00');
+// console.log(ms);
 
 function updateTimerFace({ days, hours, minutes, seconds }) {
   refs.days.textContent = `${days}`;
